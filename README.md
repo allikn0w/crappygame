@@ -6,7 +6,7 @@
 #### TODO
 Implementarlo de la mejor manera posible.
 
-![alt text](fun.jpg)
+[alt text](fun.jpg)
 
 
 `Usage: python ./cp.py personaje`
