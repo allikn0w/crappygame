@@ -1,4 +1,4 @@
-### _Crappy Game_
+### _CrApPyGaMe_
 
 ### Install
 `git clone https://github.com/allikn0w/crappygame`
