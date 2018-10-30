@@ -23,11 +23,7 @@ class Personaje(object):
     self.personaje = input()
     for name in self.names:
       if name["name"] == self.personaje:
-        self.vida = name["vida"]
-        self.escudo = name["escudo"]
-        self.mana = name["mana"]
-        self.ataque = name["ataque"]
-        self.defensa = name["defensa"]
+        self.v, self.e, self.m, self.a, self.df = name["vida"],name["escudo"],name["mana"],name["ataque"],name["defensa"]
         print(name)
     print("Cargado!")
 
