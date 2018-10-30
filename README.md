@@ -1,11 +1,15 @@
 ## _CrApPyGaMe_
+Un simple juego en Python, basado en texto y calculos matemáticos simples.
 
-## Install
+## Usage
 `git clone https://github.com/allikn0w/crappygame`  
 `./cp.py personaje`
 
-#### TODO
-Implementarlo de la mejor manera posible.
+### TODOs
+[ ] Implementarlo de la mejor manera posible.
+[ ] Agregar más enemigos.
+[ ] Agregar diseño.
+[ ] Multijugador.
 
 > ![alt text](https://github.com/allikn0w/crappygame/blob/master/img/fun.png)
 
