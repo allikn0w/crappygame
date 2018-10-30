@@ -1,5 +1,6 @@
 ## _CrApPyGaMe_
 Un simple juego basado en texto y calculos matemáticos simples.
+> ![alt text](https://github.com/allikn0w/crappygame/blob/master/img/fun.png)
 
 ## Usage
 `git clone https://github.com/allikn0w/crappygame`  
@@ -10,8 +11,6 @@ Un simple juego basado en texto y calculos matemáticos simples.
 - Agregar más enemigos.
 - Agregar diseño.
 - Multijugador.
-
-> ![alt text](https://github.com/allikn0w/crappygame/blob/master/img/fun.png)
 
 Juego compatible con:  
 ![alt_text](https://raw.githubusercontent.com/allikn0w/crappygame/master/img/crappy.jpeg)  

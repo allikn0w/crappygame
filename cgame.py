@@ -11,11 +11,6 @@ import json
 def Play():
   print('[P]elear, [C]argar, [N]uevo personaje, [B]orrar, [S]alir');
 
-'''
-class ListarPersonajes(object):
-  def __init__(self):
-'''      
-
 class Personaje(object):
   def __init__(self,personaje):
     self.personaje = personaje
@@ -31,6 +26,7 @@ class Personaje(object):
       print (name["name"])
 
   def Cargar(self):
+    
     pass
 
   def Acciones(self):
