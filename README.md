@@ -9,4 +9,5 @@ Implementarlo de la mejor manera posible.
 
 > ![alt text](https://github.com/allikn0w/crappygame/blob/master/img/fun.png)
 
-Esto tenía más tecnología que este "juego" ![alt_text](https://raw.githubusercontent.com/allikn0w/crappygame/master/img/crappy.jpeg)
+![alt_text](https://raw.githubusercontent.com/allikn0w/crappygame/master/img/crappy.jpeg)
+Eso tenía más tecnología que este "juego" 
