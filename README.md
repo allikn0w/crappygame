@@ -1,5 +1,5 @@
 ## _CrApPyGaMe_
-Un simple juego en Python, basado en texto y calculos matemáticos simples.
+Un simple juego basado en texto y calculos matemáticos simples.
 
 ## Usage
 `git clone https://github.com/allikn0w/crappygame`  
