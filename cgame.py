@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 import os
 import optparse
 from random import randint
@@ -15,14 +14,24 @@ class Personaje(object):
     print('[P]elear, [C]argar, [N]uevo personaje, [B]orrar, [S]alir')
   
   def ListarPersonajes(self):
-    names = json.loads(open('personajes.json').read())
-    for name in names['personajes']:
-      print ("+"  + name["name"])
-    print("\n")
-
+    self.names = json.loads(open('personajes.json').read())['personajes']
+    print(self.names)
+    for name in self.names:
+      print ("+ {}".format(name["name"]))
 
   def C(self):
-    print('Cargar')
+    print('Ingrese el personaje:')
+    self.personaje = input()
+    for name in self.names:
+      if name["name"] == self.personaje:
+        data = name
+        self.vida = data["vida"]
+        self.escudo = data["escudo"]
+        self.mana = data["mana"]
+        self.ataque = data["ataque"]
+        self.defensa = data["defensa"]
+        print(name)
+    print("Cargado!")
 
   def P(self):
     print('Pelear')
