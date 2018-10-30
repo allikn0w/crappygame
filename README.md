@@ -3,7 +3,7 @@ Un simple juego basado en texto y calculos matemáticos simples.
 
 ## Usage
 `git clone https://github.com/allikn0w/crappygame`  
-`./cp.py personaje`
+`./cp.py -u personaje`
 
 ### TODOs
 - Implementarlo de la mejor manera posible.
