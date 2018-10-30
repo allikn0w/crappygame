@@ -15,7 +15,6 @@ class Personaje(object):
   
   def ListarPersonajes(self):
     self.names = json.loads(open('personajes.json').read())['personajes']
-    print(self.names)
     for name in self.names:
       print ("+ {}".format(name["name"]))
 
@@ -45,11 +44,11 @@ class Personaje(object):
   def notAfun(self):
     print('No existe esa accion')
 
-  def Acciones(self,accion):
+  def Acciones(self,jugada):
     {'P':self.P,
     'C':self.C,
     'B':self.B,
-    'N':self.N}.get(accion, self.notAfun)()
+    'N':self.N}.get(jugada, self.notAfun)()
   
 
 def main():
@@ -67,8 +66,8 @@ def main():
     Jugador.ListarPersonajes()
 
   Jugador.Opciones()
-  accion = input()
-  Jugador.Acciones(accion)
+  jugada = input()
+  Jugador.Acciones(jugada)
 
 
 
