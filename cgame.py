@@ -7,19 +7,13 @@ from random import choice
 from time import sleep
 import json
 
-
-def Play():
-  print('[P]elear, [C]argar, [N]uevo personaje, [B]orrar, [S]alir');
-
 class Personaje(object):
   def __init__(self,personaje):
     self.personaje = personaje
 
-  '''
-  def Cargar_Personaje(self):
-    with open('personajes') as f:
-      lines = f.redlines()
-  '''
+  def Opciones(self):
+    print('[P]elear, [C]argar, [N]uevo personaje, [B]orrar, [S]alir')
+  
   def ListarPersonajes(self):
     names = json.loads(open('personajes.json').read())
     for name in names['personajes']:
@@ -49,12 +43,6 @@ class Personaje(object):
     'N':self.N}.get(accion, self.notAfun)()
   
 
-class Perfiles(object):
-  def __init__(self):
-    names = json.loads(open('personajes.json').read())
-    print(names.get("andresito"))
-
- 
 def main():
   parser = optparse.OptionParser()
   parser.add_option('-p','--personaje',
@@ -69,7 +57,7 @@ def main():
     print('Mostrando personajes existentes:')
     Jugador.ListarPersonajes()
 
-  print('[P]elear, [C]argar, [N]uevo personaje, [B]orrar, [S]alir')
+  Jugador.Opciones()
   accion = input()
   Jugador.Acciones(accion)
 
