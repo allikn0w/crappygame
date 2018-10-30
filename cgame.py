@@ -6,8 +6,15 @@ from random import randint
 from random import choice
 from time import sleep
 
+def Play():
+  print('[P]elear, [C]argar, [N]uevo personaje, [B]orrar, [S]alir');
+
+class ListarPersonajes(object):
+  def __init__(self):
+    
+
 class Personaje(object):
-  def __init__(self,personaje,,,):
+  def __init__(self,personaje):
     self.personaje = personaje
 
   def Cargar_Personaje(self):

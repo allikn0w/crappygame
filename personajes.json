@@ -1,0 +1,42 @@
+{ "personaje": 
+  [
+    {"andresito":
+      [
+        {
+          "edad":"40",
+          "vida":"20",
+          "escudo":40,
+          "mana":10,
+          "ataque":10,
+          "defensa":20
+        }
+      ]
+    },
+
+    {"luigi":
+      [
+        {
+         "edad":"40",
+         "vida":"80",
+          "escudo":20,
+          "mana":0,
+          "ataque":100,
+          "defensa":0
+        }
+      ]
+    },
+
+    {"luisao":
+      [
+        {
+          "edad":"24",
+          "vida":"40",
+          "escudo":30,
+          "mana":20,
+          "ataque":10,
+          "defensa":0
+        }
+      ]
+    }
+  ]
+}
