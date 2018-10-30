@@ -6,10 +6,10 @@ Un simple juego basado en texto y calculos matemáticos simples.
 `./cp.py personaje`
 
 ### TODOs
-[ ] Implementarlo de la mejor manera posible.
-[ ] Agregar más enemigos.
-[ ] Agregar diseño.
-[ ] Multijugador.
+- Implementarlo de la mejor manera posible.
+- Agregar más enemigos.
+- Agregar diseño.
+- Multijugador.
 
 > ![alt text](https://github.com/allikn0w/crappygame/blob/master/img/fun.png)
 
