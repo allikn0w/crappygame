@@ -2,7 +2,7 @@
 
 ### Install
 `git clone https://github.com/allikn0w/crappygame`  
-`Usage: python ./cp.py personaje`
+`./cp.py personaje`
 
 #### TODO
 Implementarlo de la mejor manera posible.
