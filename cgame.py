@@ -31,7 +31,7 @@ class Personaje(object):
       print (name["name"])
 
   def Cargar(self):
-    
+    pass
 
   def Acciones(self):
     pass
