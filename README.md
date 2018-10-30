@@ -1,6 +1,6 @@
-### _CrApPyGaMe_
+## _CrApPyGaMe_
 
-### Install
+## Install
 `git clone https://github.com/allikn0w/crappygame`  
 `./cp.py personaje`
 
