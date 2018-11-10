@@ -1,4 +1,4 @@
-## _CrApPyGaMe_
+## quemaljuego
 Un simple juego basado en texto y calculos matemáticos simples.
 > ![alt text](https://github.com/allikn0w/crappygame/blob/master/img/fun.png)
 
@@ -12,5 +12,3 @@ Un simple juego basado en texto y calculos matemáticos simples.
 - Agregar diseño.
 - Multijugador.
 
-Juego compatible con:  
-![alt_text](https://raw.githubusercontent.com/allikn0w/crappygame/master/img/crappy.jpeg)  
